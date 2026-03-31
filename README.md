@@ -109,7 +109,7 @@ To make a user admin, manually set `role: "admin"` in their Firestore user docum
 
 ---
 
-## 🏌️ Score Logic (PRD §05)
+## 🏌️ Score Logic 
 
 - Users enter up to **5 Stableford scores** (range: 1–45)
 - Each score must include a date
@@ -119,7 +119,7 @@ To make a user admin, manually set `role: "admin"` in their Firestore user docum
 
 ---
 
-## 🎰 Draw Engine (PRD §06–07)
+## 🎰 Draw Engine 
 
 ### Random Mode
 Standard lottery — 5 unique numbers from 1–45.
@@ -152,21 +152,4 @@ firebase deploy --only hosting
 ```
 
 ---
-
-## ✅ PRD Checklist
-
-- [x] User signup & login (Email + Google)
-- [x] Subscription flow (monthly + yearly plans)
-- [x] Score entry — 5-score rolling logic with date
-- [x] Draw system — random & algorithmic modes
-- [x] Draw simulation & publish flow
-- [x] Charity directory with search/filter
-- [x] Charity contribution slider (10%–50%)
-- [x] Winner verification flow (admin)
-- [x] Payout status tracking (Pending → Approved → Paid)
-- [x] User Dashboard — all modules
-- [x] Admin Panel — users, draws, charities, winners, analytics
-- [x] Responsive design (mobile-first)
-- [x] Firestore security rules
-- [x] Environment variable configuration
-- [x] Seed script for demo data
+Live Demo - https://greenheart-nine.vercel.app/
